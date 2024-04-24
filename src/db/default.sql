@@ -1,0 +1,5 @@
+
+-- Account
+INSERT INTO `accounts`(`id`, `name`, `password`, `type`, `premdays`, `lastday`, `email`, `creation`) VALUES (1,'boulder','82b384ce62e22ad7baf5959c3cdcc048a18f5703',5,100,0,'',0);
+
+INSERT INTO `players`(`id`, `name`, `group_id`, `account_id`, `level`, `vocation`, `health`, `healthmax`, `experience`, `lookbody`, `lookfeet`, `lookhead`, `looklegs`, `looktype`, `lookaddons`, `maglevel`, `mana`, `manamax`, `manaspent`, `soul`, `town_id`, `posx`, `posy`, `posz`, `conditions`, `cap`, `sex`, `lastlogin`, `lastip`, `save`, `skull`, `skulltime`, `lastlogout`, `blessings`, `onlinetime`, `deletion`, `balance`, `offlinetraining_time`, `offlinetraining_skill`, `stamina`, `skill_fist`, `skill_fist_tries`, `skill_club`, `skill_club_tries`, `skill_sword`, `skill_sword_tries`, `skill_axe`, `skill_axe_tries`, `skill_dist`, `skill_dist_tries`, `skill_shielding`, `skill_shielding_tries`, `skill_fishing`, `skill_fishing_tries`) VALUES (1,'BOULDER',3,1,2,1,1000,1000,100,114,0,116,114,140,3,20,1000,1000,100,100,1,95,117,7,'',1000,0,0,0,1,0,0,0,0,0,0,0,43200,-1,2520,10,0,10,0,10,0,10,0,10,0,10,0,10,0);
