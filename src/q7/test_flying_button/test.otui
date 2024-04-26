@@ -1,0 +1,13 @@
+MainWindow
+  id: spelllistWindow
+  !text: tr('Flying Button!')
+  size: 300 300
+  Button
+    id: button_test
+    !text: tr('Jump!')
+    width: 50
+    anchors.right: parent.right
+    anchors.top: parent.top
+    margin-left: 0
+    margin-top: 0
+    @onClick: resetButtonTravel()

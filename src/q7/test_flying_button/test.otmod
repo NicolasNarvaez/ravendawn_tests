@@ -1,0 +1,9 @@
+Module
+  name: test_flying_button
+  description: flying button test
+  author: Nicolas Narvaez
+  website: https://github.com/NicolasNarvaez/ravendawn_tests
+  sandboxed: true
+  scripts: [ test ]
+  @onLoad: init()
+  @onUnload: terminate()
